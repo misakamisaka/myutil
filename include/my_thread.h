@@ -1,11 +1,11 @@
-#ifndef TRAXEX_MY_THREAD_H
-#define TRAXEX_MY_THREAD_H
+#ifndef MORTRED_MY_THREAD_H
+#define MORTRED_MY_THREAD_H
 
 #include <thread>
 #include <functional> 
 #include <memory>
 
-namespace traxex {
+namespace mortred {
 namespace myutil {
 
 class MyThread {

@@ -1,11 +1,11 @@
-#ifndef TRAXEX_MY_RING_BUFFER
-#define TRAXEX_MY_RING_BUFFER
+#ifndef MORTRED_MY_RING_BUFFER
+#define MORTRED_MY_RING_BUFFER
 
 #include <atomic>
 #include <exception>
 #include <memory>
 
-namespace traxex {
+namespace mortred {
 namespace myutil {
 
 class MyRingBufferException : public std::exception {
@@ -100,4 +100,4 @@ class MyRingBuffer {
 }
 }
 
-#endif //TRAXEX_MY_RING_BUFFER
+#endif //MORTRED_MY_RING_BUFFER

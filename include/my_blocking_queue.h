@@ -1,5 +1,5 @@
-#ifndef  TRAXEX_BLOCKING_QUEUE_H
-#define  TRAXEX_BLOCKING_QUEUE_H
+#ifndef  MORTRED_BLOCKING_QUEUE_H
+#define  MORTRED_BLOCKING_QUEUE_H
 
 #include <deque>
 #include <mutex>
@@ -7,7 +7,7 @@
 #include <boost/noncopyable.hpp>
 #include <boost/timer/timer.hpp>
 
-namespace traxex {
+namespace mortred {
 namespace myutil {
 
 template<class T>
@@ -119,6 +119,5 @@ void BlockingQueue<T>::clear() {
 
 }
 }
-#include "blockingqueue_.hpp"
 
-#endif  //TRAXEX_BLOCKING_QUEUE_H
+#endif  //MORTRED_BLOCKING_QUEUE_H
